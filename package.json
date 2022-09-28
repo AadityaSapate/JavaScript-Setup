@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha spec/ --require babel-register",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "webpack"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
