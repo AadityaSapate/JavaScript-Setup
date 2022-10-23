@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha spec/ --require babel-register",
     "start": "node index.js",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch --mode development"
   },
   "author": "",
   "license": "ISC",
