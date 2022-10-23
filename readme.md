@@ -122,3 +122,9 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin()],
 };
 ```
+
+### separate webpack configuration for prod and dev using webpack-merge 
+
+```
+npm i -D webpack-merge
+```
