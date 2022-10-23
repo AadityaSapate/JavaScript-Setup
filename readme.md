@@ -128,3 +128,27 @@ module.exports = {
 ```
 npm i -D webpack-merge
 ```
+
+### using webpack-dev-serve to serve the bundle in development
+
+```
+npm i -D webpack-dev-server
+```
+
+package.json
+```javascript
+scripts: {
+     "dev": "webpack-dev-server --config webpack.config.dev.js",
+}
+```
+
+setting port 
+webpack.config.js
+```javascript
+{
+  mode: 'development',
+  devServer: {
+    port: 9000
+  }
+}
+```
