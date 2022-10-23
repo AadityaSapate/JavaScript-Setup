@@ -1,1 +1,0 @@
-(()=>{"use strict";const o=greeting="Hello World!";console.log(`Hi ${o}`)})();
